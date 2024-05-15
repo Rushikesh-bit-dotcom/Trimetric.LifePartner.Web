@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Trimetric.LifePartner.DAL.BaseDAL">
+    <Position X="7.75" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAACAAAACAAAAAAAAAAAAAAQAAAAAAEAAAAIA=</HashCode>
+      <FileName>BaseDAL.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Trimetric.LifePartner.DAL.EducationDAL" Collapsed="true">
+    <Position X="8.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAQAAAgAgAAAAAAA=</HashCode>
+      <FileName>EducationDAL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Trimetric.LifePartner.DAL.FamilyDAL" Collapsed="true">
+    <Position X="13" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAEAAAEAEAAA=</HashCode>
+      <FileName>FamilyDAL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Trimetric.LifePartner.DAL.HealthDAL" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAgAAAAAAAAAQAAAAAAACAAAAA=</HashCode>
+      <FileName>HealthDAL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Trimetric.LifePartner.DAL.HoroScopeDAL" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAABAAAAAAAAAAAAAQAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>HoroScopeDAL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Trimetric.LifePartner.DAL.PhotoDAL" Collapsed="true">
+    <Position X="6.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAACA=</HashCode>
+      <FileName>PhotoDAL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Trimetric.LifePartner.DAL.ProfileDAL" Collapsed="true">
+    <Position X="10.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAABAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProfileDAL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Trimetric.LifePartner.DAL.SignUpDAL" Collapsed="true">
+    <Position X="15.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAIQAAAAAAAAAAAAA=</HashCode>
+      <FileName>SignUpDAL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

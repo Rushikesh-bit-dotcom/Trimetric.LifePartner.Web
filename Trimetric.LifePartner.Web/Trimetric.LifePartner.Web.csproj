@@ -1,0 +1,438 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FB5EFB66-8321-4F39-B970-D42C0D63E389}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Trimetric.LifePartner.Web</RootNamespace>
+    <AssemblyName>Trimetric.LifePartner.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44306</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assests\css\croppie.css" />
+    <Content Include="assests\js\croppie.js" />
+    <Content Include="assests\css\fontawesome-all.min.css" />
+    <Content Include="assests\css\main.css" />
+    <Content Include="assests\css\noscript.css" />
+    <Content Include="assests\js\breakpoints.min.js" />
+    <Content Include="assests\js\browser.min.js" />
+    <Content Include="assests\js\jquery.min.js" />
+    <Content Include="assests\js\jquery.scrollex.min.js" />
+    <Content Include="assests\js\main.js" />
+    <Content Include="assests\js\slick.js" />
+    <Content Include="assests\js\util.js" />
+    <Content Include="WebForm1.aspx" />
+    <None Include="Connected Services\Calculator\MatrimonyService.disco" />
+    <None Include="Connected Services\Calculator\configuration91.svcinfo" />
+    <None Include="Connected Services\Calculator\configuration.svcinfo" />
+    <None Include="Connected Services\Calculator\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Connected Services\ServiceReference1\MatrimonyService.disco" />
+    <None Include="Connected Services\ServiceReference1\configuration91.svcinfo" />
+    <None Include="Connected Services\ServiceReference1\configuration.svcinfo" />
+    <None Include="Connected Services\ServiceReference1\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="Country.aspx" />
+    <Content Include="CreateProfileButtons.aspx" />
+    <Content Include="CustomerData.aspx" />
+    <Content Include="Education.aspx" />
+    <Content Include="Family.aspx" />
+    <Content Include="ForYou.aspx" />
+    <Content Include="Health.aspx" />
+    <Content Include="HoroScope.aspx" />
+    <Content Include="Images\background.jpg" />
+    <Content Include="Images\background01.jpg" />
+    <Content Include="Images\background1.jpg" />
+    <Content Include="Images\background2.jpg" />
+    <Content Include="Images\bg.jpg" />
+    <Content Include="Images\bg05.jpg" />
+    <Content Include="Images\bg1.jpg" />
+    <Content Include="Images\bg2.jpg" />
+    <Content Include="Images\bg3.jpg" />
+    <Content Include="Images\bg4 %281%29.jpg" />
+    <Content Include="Images\bg5.jpg" />
+    <Content Include="Images\bg6.jpg" />
+    <Content Include="Images\bg7.jpg" />
+    <Content Include="Images\bodybg.jpg" />
+    <Content Include="Images\bodybg1.jpg" />
+    <Content Include="Images\bodybg2.jpg" />
+    <Content Include="Images\defaultauthorimage.jpg.jpeg" />
+    <Content Include="Images\heart.png" />
+    <Content Include="Images\love-bird.png" />
+    <Content Include="Images\pic01.jpg" />
+    <Content Include="Images\pic02.jpg" />
+    <Content Include="Images\pic03 %281%29.jpg" />
+    <Content Include="Images\pic03.jpg" />
+    <Content Include="Images\pic04.jpg" />
+    <Content Include="Images\pic05.jpg" />
+    <Content Include="Images\pic06.jpg" />
+    <Content Include="Images\pic07.jpg" />
+    <Content Include="Images\pic08.jpg" />
+    <Content Include="Images\RC.jpg.png" />
+    <Content Include="Images\Sections\foryou1.jpg" />
+    <Content Include="Images\Sections\foryou2.jpg" />
+    <Content Include="Images\Sections\lifepartner.jpg" />
+    <Content Include="Images\Sections\p01.jpg" />
+    <Content Include="Images\Sections\p07.jpg" />
+    <Content Include="Images\Sections\p08.jpg" />
+    <Content Include="Images\Sections\p2.jpg" />
+    <Content Include="Images\Sections\p3.jpg" />
+    <Content Include="Images\Sections\p4.jpg" />
+    <Content Include="Images\Sections\p5.jpg" />
+    <Content Include="Images\Sections\p6.jpg" />
+    <Content Include="Images\Sections\TwoHands.jpg" />
+    <Content Include="Images\slides\download %281%29.jpeg" />
+    <Content Include="Images\slides\download %282%29.jpeg" />
+    <Content Include="Images\slides\download %283%29.jpeg" />
+    <Content Include="Images\slides\download %284%29.jpeg" />
+    <Content Include="Images\slides\download.jpeg" />
+    <Content Include="Images\slides\S201.jpg" />
+    <Content Include="Images\slides\S202.jpg" />
+    <Content Include="Images\slides\S203.jpg" />
+    <Content Include="Images\slides\S204.jpg" />
+    <Content Include="Images\slides\S205.jpg" />
+    <Content Include="Images\slides\S206.jpg" />
+    <Content Include="Images\slides\S207.jpg" />
+    <Content Include="Index.aspx" />
+    <Content Include="LogIn.aspx" />
+    <Content Include="MatrimonyService.asmx" />
+    <Content Include="MoreInfo.aspx" />
+    <Content Include="MyChoice.aspx" />
+    <Content Include="Photo.html" />
+    <Content Include="Picture.aspx" />
+    <Content Include="Profile.aspx" />
+    <Content Include="assests\css\Profile.css" />
+    <Content Include="ProfilePhoto.aspx" />
+    <Content Include="User.aspx" />
+    <None Include="Connected Services\ServiceReference1\MatrimonyService.wsdl" />
+    <Content Include="Connected Services\ServiceReference1\Trimetric.LifePartner.Web.ServiceReference1.HelloWorldResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\ServiceReference1\Trimetric.LifePartner.Web.ServiceReference1.SumOfFloats1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Handler1.ashx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\localhost\MatrimonyService.disco" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Connected Services\Calculator\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\ServiceReference1\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Country.aspx.cs">
+      <DependentUpon>Country.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Country.aspx.designer.cs">
+      <DependentUpon>Country.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CreateProfileButtons.aspx.cs">
+      <DependentUpon>CreateProfileButtons.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CreateProfileButtons.aspx.designer.cs">
+      <DependentUpon>CreateProfileButtons.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerData.aspx.cs">
+      <DependentUpon>CustomerData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomerData.aspx.designer.cs">
+      <DependentUpon>CustomerData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Education.aspx.cs">
+      <DependentUpon>Education.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Education.aspx.designer.cs">
+      <DependentUpon>Education.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Family.aspx.cs">
+      <DependentUpon>Family.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Family.aspx.designer.cs">
+      <DependentUpon>Family.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ForYou.aspx.cs">
+      <DependentUpon>ForYou.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForYou.aspx.designer.cs">
+      <DependentUpon>ForYou.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Handler1.ashx.cs">
+      <DependentUpon>Handler1.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="HeaderFooter.Master.cs">
+      <DependentUpon>HeaderFooter.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HeaderFooter.Master.designer.cs">
+      <DependentUpon>HeaderFooter.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Health.aspx.cs">
+      <DependentUpon>Health.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Health.aspx.designer.cs">
+      <DependentUpon>Health.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HoroScope.aspx.cs">
+      <DependentUpon>HoroScope.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HoroScope.aspx.designer.cs">
+      <DependentUpon>HoroScope.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn.aspx.cs">
+      <DependentUpon>LogIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogIn.aspx.designer.cs">
+      <DependentUpon>LogIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MatrimonyService.asmx.cs">
+      <DependentUpon>MatrimonyService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MoreInfo.aspx.cs">
+      <DependentUpon>MoreInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MoreInfo.aspx.designer.cs">
+      <DependentUpon>MoreInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyChoice.aspx.cs">
+      <DependentUpon>MyChoice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyChoice.aspx.designer.cs">
+      <DependentUpon>MyChoice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Picture.aspx.cs">
+      <DependentUpon>Picture.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Picture.aspx.designer.cs">
+      <DependentUpon>Picture.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProfilePhoto.aspx.cs">
+      <DependentUpon>ProfilePhoto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProfilePhoto.aspx.designer.cs">
+      <DependentUpon>ProfilePhoto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="User.aspx.cs">
+      <DependentUpon>User.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User.aspx.designer.cs">
+      <DependentUpon>User.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\localhost\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="HeaderFooter.Master" />
+    <Content Include="ClassDiagram1.cd" />
+    <None Include="Connected Services\Calculator\MatrimonyService.wsdl" />
+    <Content Include="Connected Services\Calculator\Trimetric.LifePartner.Web.Calculator.HelloWorldResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\Calculator\Trimetric.LifePartner.Web.Calculator.SumOfFloats1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="packages.config" />
+    <None Include="Web References\localhost\MatrimonyService.wsdl" />
+    <Content Include="Web References\localhost\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </Content>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\slides\NewFolder1\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Trimetric.LifePartner.BDO\Trimetric.LifePartner.BDO.csproj">
+      <Project>{05fd5259-25c4-4d83-aaa2-7d16b00d7d8d}</Project>
+      <Name>Trimetric.LifePartner.BDO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Trimetric.LifePartner.BLL\Trimetric.LifePartner.BLL.csproj">
+      <Project>{f7e003fc-9e2e-4004-a1df-b1bd8014c0ab}</Project>
+      <Name>Trimetric.LifePartner.BLL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\Calculator\" />
+    <WCFMetadataStorage Include="Connected Services\ServiceReference1\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="https://localhost:44306/MatrimonyService.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\localhost\</RelPath>
+      <UpdateFromURL>https://localhost:44306/MatrimonyService.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Trimetric_LifePartner_Web_localhost_MatrimonyService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>59723</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44306/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

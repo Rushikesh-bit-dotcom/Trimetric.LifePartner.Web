@@ -1,0 +1,293 @@
+﻿.hearts {
+    color: red;
+    background-color: red;
+}
+/*Education*/
+.EducationSection {
+    text-align: center;
+    margin: 10%;
+    padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border: groove;
+    width: 50%;
+}
+
+.educationcolumn {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+/*Health*/
+.HealthSection {
+    text-align: center;
+    margin: 10%;
+    padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border: groove;
+    width: 50%;
+}
+
+
+
+/*Family*/
+.FamilySection {
+    text-align: center;
+    margin: 10%;
+    padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border: groove;
+    width: 70%;
+}
+
+/*HoroScope*/
+.HoroSection {
+    text-align: center;
+    margin: 10%;
+    padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border: groove;
+    width: 70%;
+}
+
+label {
+    font-weight: bold !important;
+}
+/*CreateProfileButtons*/
+@media screen and (max-width: 480px) {
+    .ProfileButtons {
+        padding: 0;
+        margin: 3%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .photosection {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1290px) {
+    .photosection {
+        width: 90%;
+    }
+}
+
+/*#2e3141*/
+@media screen and (max-width: 1920px) {
+    /*#2e3141*/
+    #banner {
+        padding: 7em 0 8.25em 0;
+        background-color: #2e3141;
+        background-image: linear-gradient(to top, rgba(46, 49, 65, -0.2), rgba(46, 49, 65, 0.8)), url("../../Images/background01.jpg");
+        background-size: auto, cover;
+        background-position: center, center;
+        margin-bottom: -6.5em;
+        /*background-attachment: fixed;*/
+    }
+}
+
+/*WraperBottomSlides*/
+.slides img {
+    padding-top: 4%;
+}
+
+@media screen and (max-width: 1920px) {
+    #slides img {
+        height: 140px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+
+@media screen and (max-width:980px) {
+    #slides img {
+        height: 106px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width:736px) {
+    #slides img {
+        height: 130px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width:740px) {
+    #slides img {
+        height: 123px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+
+
+/*ForYou*/
+.ForYouSection {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+}
+
+#dataList {
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.DataImage {
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.Name {
+    font-weight:bold;
+    border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+    padding-bottom:3px;
+}
+
+.ForYouSection .ForYouArtical {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ProfileData {
+    border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+    padding-bottom: 3px;
+    border-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+}
+.EducationData {
+    border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+    padding-bottom: 3px;
+    border-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+}
+.FamilyData {
+    border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+    padding-bottom: 3px;
+    border-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+}
+.HealthData {
+    border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+    padding-bottom: 3px;
+    border-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+}
+.HoroScopeData {
+    border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+    padding-bottom: 3px;
+    border-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+}
+.label {
+   font-weight:bold;
+
+}
+.labelValue {
+    word-wrap: normal;
+    word-break: break-all;
+}
+/*    CustomerData*/
+.DataViewSection {
+    text-align: center;
+    margin: 10%;
+    padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*PICTURE*/
+.PictureSection {
+    text-align: center;
+    margin: 10%;
+    padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+    .PictureSection {
+        width: 100%;
+    }
+
+    .uploadbtn {
+        width: 50%;
+    }
+}
+
+.upload-demo .upload-demo-wrap,
+.upload-demo.ready .upload-msg {
+    display: none;
+}
+
+.upload-demo.ready .upload-demo-wrap {
+    display: block;
+}
+
+.upload-demo.ready .uploadbtn {
+    display: block;
+}
+
+.upload-demo-wrap {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.upload-demo .container {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.upload-msg {
+    text-align: center;
+    padding: 50px;
+    font-size: 22px;
+    color: #aaa;
+    width: 260px;
+    margin: 50px auto;
+    border: 1px solid #aaa;
+}
+
+#upload {
+    display: none;
+}
+
+.uploadbtn {
+    display: none;
+}
+
+label {
+    font-weight: bold !important;
+    width: 34px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* #cropped-result {
+            margin-top: 100px;
+        }*/
+
